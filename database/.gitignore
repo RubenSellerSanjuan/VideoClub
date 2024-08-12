@@ -1,0 +1,46 @@
+# Laravel default .gitignore file
+
+# Laravel specific
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+
+# Environment file
+.env
+
+# Database files
+/database/*.sqlite
+
+# Composer
+/composer.phar
+
+# NPM
+/package-lock.json
+/yarn.lock
+
+# IDE files
+/.idea/
+/.vscode/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Log files
+/storage/logs/*.log
+
+# Other files
+/.phpunit.result.cache
+/.php_cs.cache
+/.php_cs.dist
+/.php_cs
+/.phpstorm.meta.php
+
+# Cache files
+/bootstrap/cache/*.php
+
+# Ignore all files in the vendor directory
+/vendor/
